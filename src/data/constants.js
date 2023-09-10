@@ -183,7 +183,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "http://www.enercomp.in/theme_enercomp_indi/static/src/img/logo.png",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiqih95nkPB1WsYR9ujs1bIegbIpMBQI-GMg&usqp=CAU",
       role: "Software Developer",
       company: "Enercomp Solutions PVT. LTD.",
       date: "Jan 2022 - Nov 2022",
