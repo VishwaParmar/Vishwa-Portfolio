@@ -268,7 +268,7 @@ export const Bio = {
       description:
         "TuneHub is more than just a web application; it's your one-stop IMDb for music. With a seamless Spotify OAuth login, it's designed to enhance your music knowledge and music review system. ",
       image:
-        "https://drive.google.com/file/d/1HUGzLwzw-OyDaWQdAaqgYtBSiiWlwld4/view?usp=sharing",
+        "https://github.com/VishwaParmar/Vishwa-Portfolio/blob/main/src/images/TuneHub.png?raw=true",
       tags: [
         "React JS",
         "Express JS",
@@ -291,7 +291,7 @@ export const Bio = {
       description:
         "Affordify is a web application built with Spring Boot as the backend framework and React as the frontend library. This platform allows users to search for various categories of food products, including fruits, vegetables, and meat, at affordable prices.",
       image:
-        "https://drive.google.com/file/d/1RlWheQ8_Jtste9_-l2OdBibaYU2oWLg6/view?usp=drive_link",
+        "https://github.com/VishwaParmar/Vishwa-Portfolio/blob/main/src/images/Affordify.png?raw=true",
       tags: ["Spring Boot", "Web Scraping(jsoup)","React JS", "Test-Driven Development", "Agile Methodologies"],
       category: "web app",
       github: "https://github.com/VishwaParmar/Affordify---ASDC-Project",
@@ -303,7 +303,7 @@ export const Bio = {
       description:
         "Trivia Titans is a cutting-edge web application that brings people together to play quizzes as a team in real time. 🤝 Whether you're a trivia enthusiast or just looking for some fun challenges, Trivia Titans offers an engaging and interactive experience for users.",
       image:
-        "https://drive.google.com/file/d/18Ao1aHdreWr7WpMatCWHoTHVLRZzCbQU/view?usp=sharing",
+        "https://github.com/VishwaParmar/Vishwa-Portfolio/blob/main/src/images/TriviaTItan.png?raw=true",
       tags: [
         "Google Cloud Platform(GCP)",
         "Amazon Web Services(AWS)",
