@@ -139,7 +139,7 @@ export const Bio = {
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://github.com/VishwaParmar/Vishwa-Portfolio/blob/main/src/images/git.png?raw=true",
         },
         {
           name: "GitHub",
@@ -164,17 +164,17 @@ export const Bio = {
         {
           name: "Postman",
           image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+            "https://github.com/VishwaParmar/Vishwa-Portfolio/blob/main/src/images/postman.png?raw=true",
         },
         {
           name: "Adobe XD",
           image:
-            "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+            "https://github.com/VishwaParmar/Vishwa-Portfolio/blob/main/src/images/Adobe_XD.png?raw=true",
         },
         {
           name: "Figma",
           image:
-            "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+            "https://github.com/VishwaParmar/Vishwa-Portfolio/blob/main/src/images/Figma.png?raw=true",
         },
       ],
     },
@@ -183,61 +183,105 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiqih95nkPB1WsYR9ujs1bIegbIpMBQI-GMg&usqp=CAU",
-      role: "Software Developer",
-      company: "Enercomp Solutions PVT. LTD.",
-      date: "Jan 2022 - Nov 2022",
-      desc: "Developed Java-based Android applications that help capture terrestrial and aerial data when mounted on Unmanned Aerial Vehicle(UAV).",
+      img: "https://github.com/VishwaParmar/Vishwa-Portfolio/blob/main/src/images/blackberry.png?raw=true",
+      role: "Software Developer Student",
+      company: "BlackBerry Limited",
+      date: "Jan 2024 - Aug 2024",
+      desc: "Implemented features and fixes for Unified Endpoint Management (UEM) software using Android, Java, and Kotlin while using Gerrit as a code review system. Proactively reduced lint and Java warnings by over 10%, enhancing project stability and readability. Implemented Proguard obfuscation to enhance app security and protect code from reverse engineering. Introduced Unit testing in Java using Mockito, increasing code coverage from 0% to 4.5%. Integrated Dependency Injection using Dagger Hilt to improve code modularity and testability. Revamped UEM Client by eliminating hard-coded passwords, utilizing Jenkins secret credentials.",
       skills: [
-        "Android Developement",
+        "Android",
         "Java",
-        "GitHub",
-        "Agile Methodologies",
-        "Postman API",
-        "Technical Documentation",
-       
+        "Kotlin",
+        "Gerrit",
+        "Mockito",
+        "Dagger Hilt",
+        "Jenkins",
+        "Unit Testing",
+        "Proguard",
+        "Dependency Injection"
       ],
-    },
+    }
+    ,
     {
       id: 1,
-      img: "https://media.licdn.com/dms/image/C4E0BAQEhWg7rlovRhg/company-logo_200_200/0/1610552647610?e=1702512000&v=beta&t=BdQQjuAYXyVgpQ5hXr0aJr2-6jvxCITqCFUcIgTjqQg",
-      role: "App Developer",
-      company: "Seatizen",
-      date: "Feb 2021 - Dec 2021",
-      desc: "Led and managed a cross-functional team of developers and used DevOps methodology for the development of synchronized mobile and web applications.",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiqih95nkPB1WsYR9ujs1bIegbIpMBQI-GMg&usqp=CAU",
+      role: "Software Developer",
+      company: "Enercomp Solutions Pvt Ltd",
+      date: "Jan 2022 - Oct 2022",
+      desc: "Developed Java-based mobile applications using MVC architecture and integrated RESTful APIs to enable real-time data capture from UAV-mounted sensors. Engineered IoT-based features like Geo-tagging and automated tagged file storage, accelerating the process by 40%. Applied SDLC practices and tools like JUnit, Selenium, and Mockito to support test-driven development. Optimized database performance by tuning SQL queries and using caching mechanisms in Hibernate ORM, boosting transaction efficiency by 25%. Facilitated daily Scrum meetings and documented progress through Confluence Wiki for effective team communication.",
       skills: [
-        "Application Development",
-        "Firebase",
         "Java",
-        "Leadership roles",
+        "Android Development",
+        "MVC Architecture",
+        "RESTful APIs",
+        "JUnit",
+        "Selenium",
+        "Mockito",
+        "Hibernate ORM",
+        "SQL Tuning",
+        "IoT",
+        "Confluence",
+        "Scrum",
       ],
     },
-    
     {
       id: 2,
-      img: "https://media.licdn.com/dms/image/C560BAQFgHU3sTF4LfQ/company-logo_200_200/0/1519895156650?e=1702512000&v=beta&t=eZAhO8QHTDpLDW63hl6MKpO5k6GQem2RTzKScaRecZQ",
-      role: "App Developer Intern ",
-      company: "The Sparks Foundation",
-      date: "Feb 2021 - Mar 2021",
-      desc: "Created a SQLite Banking application using Java.",
-     
-    },
+      img: "https://github.com/VishwaParmar/Vishwa-Portfolio/blob/main/src/images/seatizen.png?raw=true",
+      role: "Application Developer",
+      company: "Seatizen – Startup incubated at PDEU IIC",
+      date: "Feb 2021 - Oct 2021",
+      desc: "Built a cross-platform seat detection app using React Native, React JS, and Firebase, enabling real-time passenger tracking for public transport. Developed a detection system using Python, OpenCV, and YOLOv5 to monitor occupancy and seat availability. Implemented anomaly detection with TensorFlow and PyTorch, improving incident alerts and route monitoring. Designed and consumed secure REST APIs to sync data across mobile and web platforms. Streamlined CI/CD using GitHub Actions for automated deployments.",
+      skills: [
+        "React Native",
+        "ReactJS",
+        "Firebase",
+        "Python",
+        "OpenCV",
+        "YOLOv5",
+        "TensorFlow",
+        "PyTorch",
+        "REST APIs",
+        "CI/CD",
+        "GitHub Actions",
+        "Cross-platform Development"
+      ],
+    },    
+    
     {
       id: 3,
-      img: "https://media.licdn.com/dms/image/C510BAQH6dI5rxyfzCg/company-logo_200_200/0/1531847211904?e=1702512000&v=beta&t=du_PP2_np0ar4aCSPyGoIpaVsuUqWE80hrpi9GdEW94",
+      img: "https://github.com/VishwaParmar/Vishwa-Portfolio/blob/main/src/images/sparks.png?raw=true",
+      role: "App Developer Intern",
+      company: "The Sparks Foundation",
+      date: "Feb 2021 - Mar 2021",
+      desc: "Developed an Android application for a Basic Banking System as part of The Sparks Foundation’s GRIP internship program. The app enables users to securely transfer money and track transactions using a local SQLite database. Emphasized secure data storage, efficient user interaction, and a smooth user experience on mobile devices. The project was completed remotely from Singapore.",
+      skills: [
+        "Android Development",
+        "Java",
+        "SQLite",
+        "Application Development",
+        "Android Studio",
+        "Mobile UI/UX"
+      ],
+    }
+    ,
+    {
+      id: 4,
+      img: "https://github.com/VishwaParmar/Vishwa-Portfolio/blob/main/src/images/matrubharti.png?raw=true",
       role: "Android Developer Intern",
       company: "Matrubharti",
-      date: "Nov2021 - Present",
-      desc: "As an Android developer intern at the Matrubharti, I have had the opportunity to work on exciting on going projects and learn under talented senior developers who share the passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+      date: "Jul 2021 - Oct 2021", 
+      desc: "Contributed to the development of Android applications by collaborating with senior developers and participating in real-time project implementations. Gained hands-on experience with Kotlin, XML layouts, and UI design using Figma. Actively involved in community engagement through GDCS, organizing and participating in hackathons, study jams, and workshops to promote developer learning and collaboration.",
       skills: [
-        "Leadership",
-        "Mobile Application Development",
+        "Android Development",
         "Kotlin",
         "XML",
         "Figma",
+        "Team Collaboration",
+        "Community Engagement",
+        "Event Hosting"
       ],
-     
-    },
+    }
+    ,
     
   ];
   
