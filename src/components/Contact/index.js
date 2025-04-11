@@ -103,7 +103,7 @@ const ContactInputMessage = styled.textarea`
   }
 `
 
-const ContactButton = styled.input`
+const ContactButton = styled.button`
   width: 100%;
   text-decoration: none;
   text-align: center;
@@ -147,13 +147,14 @@ const Contact = () => {
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
-        </ContactForm>
+        <ContactTitle>Email Me 🚀</ContactTitle>
+        <ContactInput placeholder="Your Email" name="from_email" required />
+        <ContactInput placeholder="Your Name" name="from_name" required />
+        <ContactInput placeholder="Subject" name="subject" required />
+        <ContactInputMessage placeholder="Message" rows="4" name="message" required />
+        <ContactButton type="submit">Send</ContactButton>
+      </ContactForm>
+
         <Snackbar
           open={open}
           autoHideDuration={6000}
