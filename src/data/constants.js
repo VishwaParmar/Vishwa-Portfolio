@@ -10,7 +10,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/VishwaParmar",
     resume:
-      "https://drive.google.com/file/d/1wXm0qnjX7WyrdAbxJk8LdAhvxrUbf3eY/view?usp=sharing",
+      "https://drive.google.com/file/d/1pISQBd7jc7a_ccRkx8zZ-fF3g3HLuhAR/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/vishwa-parmar-347b291b3/",
     twitter: "https://twitter.com/VishwaParmar8",
     insta: "https://www.instagram.com/vishwa_24/",
